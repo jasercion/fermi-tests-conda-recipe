@@ -1,0 +1,16 @@
+package:
+  name: fermi-tests
+  version: "1.0.0"
+
+source:
+  git_url: https://github.com/jasercion/fermi-tests.git
+
+build:
+  number: 1
+
+requirements:
+  build:
+        - fermi-glast
+
+  run:
+        - fermi-glast
