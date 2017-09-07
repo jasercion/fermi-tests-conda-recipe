@@ -13,5 +13,6 @@ export CPPUNIT="cppunit"
 export FFTW="fftw3"
 export XERCES="xerces-c"
 export BUILD_WITHOUT_ROOT="yes"
-./configure
+./configure --prefix=${PREFIX}
 make
+make install
