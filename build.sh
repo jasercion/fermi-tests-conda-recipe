@@ -16,3 +16,4 @@ export BUILD_WITHOUT_ROOT="yes"
 ./configure --prefix=${PREFIX}
 make
 make install
+make install-data
